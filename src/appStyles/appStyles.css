@@ -115,6 +115,6 @@ p {
 .HomeBg {
   background-image: url("../images/heroImages/homepage_hero_bg.png");
   background-position: center;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 /*# sourceMappingURL=appStyles.css.map */
