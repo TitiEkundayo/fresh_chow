@@ -38,9 +38,17 @@ const Hero = () => {
 
 					<div className="d-flex">
 						<div className="me-3">
-							<GreenBgPurchaseChoiceBtn text="Soup/Lunch" />
+							<GreenBgPurchaseChoiceBtn
+								text="Soup/Lunch"
+								link={
+									"https://docs.google.com/forms/d/e/1FAIpQLSd1uQcGEOA2AUZGqdqPcaI3SIG5d9mIL2EOKSXZz1xGCUfwkQ/viewform?usp=sharing"
+								}
+							/>
 						</div>
-						<WhiteBgPurchaseChoiceBtn text="Foodstuff" />
+						<WhiteBgPurchaseChoiceBtn
+							text="Foodstuff"
+							link={"https://forms.gle/Mvz2DNsXWG5xi6iR8"}
+						/>
 					</div>
 				</div>
 
