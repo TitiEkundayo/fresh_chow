@@ -1,0 +1,18 @@
+@use "./generalStyles/reset";
+
+// components
+@use "./componentStyles/navbarStyles";
+@use "./componentStyles/buttonStyles";
+@use "./componentStyles/cardStyles";
+@use "./componentStyles/formStyles";
+@use "./componentStyles/footerStyles";
+
+// pages
+// @use "./pageStyles/homeStyle";
+.HomeBg {
+	background-image: url("../images/heroImages/homepage_hero_bg.png");
+	// background-repeat: no-repeat;
+	// background-size: contain;
+	background-position: center;
+	min-height: 100vh;
+}
