@@ -19,8 +19,9 @@
 
 	background-image: url("../images/heroImages/homepage_hero_bg.png");
 	background-repeat: no-repeat;
-	// background-size: cover;
-	background-position: center;
+	background-size: cover;
+	// background-position: center;
+	background-position-x: center;
 	// background-size: contain;
 	min-height: 100vh;
 	min-width: 100vw;
@@ -34,10 +35,10 @@
 	.HomeBg {
 		// background-image: url("../images/heroImages/homepage_hero_bg.png");
 		// background-repeat: no-repeat;
-		background-size: cover;
-		// background-position: center;
+		// background-size: cover;
+		background-position: center;
 		background-size: contain;
-		// min-height: 100vh;
+		min-height: 100vh;
 		// min-width: 100vw;
 	}
 }
