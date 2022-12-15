@@ -114,7 +114,16 @@ p {
 
 .HomeBg {
   background-image: url("../images/heroImages/homepage_hero_bg.png");
+  background-repeat: no-repeat;
   background-position: center;
-  max-height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@media (max-width: 414) and (min-width: 280) {
+  .HomeBg {
+    background-size: cover;
+    background-size: contain;
+  }
 }
 /*# sourceMappingURL=appStyles.css.map */
